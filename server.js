@@ -19,7 +19,8 @@ const mongoose = require("./db/dbconn");
 // ROUTERS
 const authRouter = require("./controllers/auth");
 const testRouter = require("./controllers/test");
-const teaRouter = require("./controllers/teas")
+const teaRouter = require("./controllers/teas");
+const cartRouter = require("./controllers/cart");
 
 // OTHER IMPORTS
 const session = require("express-session");
@@ -62,7 +63,8 @@ app.get("/", (req, res) => {
 
 app.use("/auth", authRouter);
 app.use("/test", testRouter);
-app.use("/teas", teaRouter)
+app.use("/teas", teaRouter);
+app.use("/cart", cartRouter);
 
 ////////////////////////
 //APP LISTENER

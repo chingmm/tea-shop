@@ -7,9 +7,10 @@ const { Schema, model } = require("mongoose");
 // CREATE SCHEMA
 ////////////////////////////////////
 
-const commentSchema = new Schema({
+const cartSchema = new Schema({
+  tea: { type: String, required: true },
+  qty: { type: Number, required:true },
   username: { type: String, required: true },
-  comment: { type: String, required:true }
 },
   { timestamps: true }
 );
@@ -17,9 +18,9 @@ const commentSchema = new Schema({
 ////////////////////////////////////
 // CREATE MODEL
 ////////////////////////////////////
-const Comment = model("comment", commentSchema);
+const Cart = model("cart", cartSchema);
 
 ////////////////////////////////////
 // EXPORT MODEL
 ////////////////////////////////////
-module.exports = Comment;
+module.exports = Cart;
