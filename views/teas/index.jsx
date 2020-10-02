@@ -10,7 +10,7 @@ class Index extends React.Component {
           {teas.map((tea, id) => {
               return <div className = "tea-box">
                   <h3>{tea.name}</h3>
-                  <a key={tea._id} href={`/teas/${tea.id}`}>
+                  <a key={tea._id} href={`/${tea.id}`}>
                   <img className = "gallery-img" src={tea.img}/></a>
               </div>
           })}

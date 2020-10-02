@@ -47,7 +47,7 @@ router.post("/login", async (req, res) => {
       //SAVE INFO IN SESSION THAT USER IS LOGGEDIN AND USERNAME
       req.session.login = true;
       req.session.username = user[0].username;
-      res.redirect("/teas");
+      res.redirect("/");
     } else {
       // Redirect to login page if failed
       res.render("auth/fail.jsx");
@@ -61,7 +61,7 @@ router.post("/login", async (req, res) => {
 //LOGOUT
 router.get("/logout", (req, res) => {
   req.session.destroy();
-  res.redirect("/teas");
+  res.redirect("/");
 });
 
 ///////////////////////////////////////

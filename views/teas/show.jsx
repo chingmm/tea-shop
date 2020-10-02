@@ -7,7 +7,7 @@ class Show extends React.Component {
         return (
             <Layout title="Tea Details">
                 <div className = "details-box">
-                    <a href ="/teas"><h4 className = "link-name">Back to Teas</h4></a>
+                    <a href ="/"><h4 className = "link-name">Back to Teas</h4></a>
                     <h2>{teas.name}</h2>
                     <h2>{teas.description}</h2> 
                     <div className = "img-box"><img className = "tea-img" src={teas.img}/></div>
