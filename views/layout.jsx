@@ -14,7 +14,10 @@ class Layout extends React.Component {
           <div className="container-fluid">
           <header>
             <div className="row">
-              <div className="col">
+              <div className="col-sm-4">
+                <nav><a href="/"><h1 className="store-name">M's Tea</h1></a></nav>
+              </div>
+              <div className="col-sm-8">
                 <nav className="navbar-right sticky-top navbar-dark bg-dark">
               <span>
                 <a className="navbar-brand" href="/cart">CART</a>
@@ -29,9 +32,6 @@ class Layout extends React.Component {
                 <a className="navbar-brand" href="/auth/logout">LOG OUT</a>
               </span>
             </nav>
-            </div>
-            <div className="col">
-              <nav><a href="/"><h1>M's Tea</h1></a></nav>
             </div>
             </div>
           </header>
