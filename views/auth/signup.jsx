@@ -6,8 +6,8 @@ class Index extends React.Component {
     return (
       <Layout title="SIGNUP">
         <form action="/auth/signup" method="post">
-          <input type="text" name="username" placeholder="username" />
-          <input type="text" name="password" placeholder="password" />
+          <input className="user-input" type="text" name="username" placeholder="username" />
+          <input className="password-input" type="text" name="password" placeholder="password" />
           <input className = "signup-button" type="submit" value="signup" />
         </form>
         <div className = "bottom-img-box">

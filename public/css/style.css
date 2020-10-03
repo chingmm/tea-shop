@@ -111,6 +111,17 @@ img {
     margin-left: 10px;
 }
 
+.signup-button, .login-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.user-input, .password-input {
+    padding: 7px;
+}
+
 .cart-button:hover, .product-button:hover, .delete-button:hover, .edit-button:hover, .signup-button:hover, .login-button:hover {
     opacity: 0.7;
 }

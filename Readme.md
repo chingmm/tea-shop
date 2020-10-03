@@ -8,11 +8,15 @@ Full-stack web application for an online tea store that implements CRUD and INDU
 - Express
 - Mongoose
 - CSS
+- Bootstrap
 
 
 # Setup
 - CRUD routers for tea shop and shopping cart
 - Two mongoose schemas to set up separate schemas in MongoDB - teas and carts
+
+# Problems
+- Bootstrap doesn't seem to be working properly for styling. Used CSS Flexbox and vanilla CSS as a wrokaround
 
 
 # Potential Improvements Later
@@ -22,3 +26,4 @@ Full-stack web application for an online tea store that implements CRUD and INDU
 - Previous orders section in shopping cart page
 - Comments section for customer reviews on tea details pages
 - Add in more responsive design for mobile and resizing browser page
+- Different sections for different tea categories (herbal, green, black, etc)
