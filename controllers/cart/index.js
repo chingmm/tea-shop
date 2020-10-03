@@ -83,6 +83,11 @@ router.put('/edit/:id', auth, async(req, res) => {
   }
 })
 
+// Show Route
+router.get('/:id', (req, res) => {
+  res.render('cart/show.jsx')
+})
+
 //TEST ROUTE TO SHOW HOW AUTH MIDDLEWARE WORKS
 
 router.get("/", auth, (req, res) => {

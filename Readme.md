@@ -21,3 +21,4 @@ Full-stack web application for an online tea store that implements CRUD and INDU
 - Change add to cart feature to only update for quantity amount with +/- feature
 - Previous orders section in shopping cart page
 - Comments section for customer reviews on tea details pages
+- Add in more responsive design for mobile and resizing browser page

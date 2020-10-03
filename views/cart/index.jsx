@@ -22,6 +22,9 @@ class Index extends React.Component {
                     </div>
               })}
           </div>
+          <div className="checkout-box">
+            <a href="/cart/show"><button type="button" className="btn btn-dark" className="cart-button">CHECKOUT</button></a>
+          </div>
           <div className = "bottom-img-box">
             <img className = "bottom-img" src="https://lawsofpositivelifestyle.com/wp-content/uploads/2016/09/loose-leaf-premium-teas.jpg"/>
           </div>

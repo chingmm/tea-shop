@@ -44,22 +44,6 @@ img {
     bottom:0px;
 }
 
-/* .side-img {
-    height: 100%;
-    position: fixed;
-    right: 0px;
-    margin: 0px;
-} */
-
-/* .side-img-box {
-    height: 100%;
-    width: 450px;
-    overflow:hidden;
-    position: fixed;
-    right: 0px;
-    margin: 0px;
-} */
-
 .container-fluid {
     padding: 0px;
 }
@@ -206,6 +190,14 @@ p {
 .add-tea-page {
     display: flex;
     flex-direction: row;
+}
+
+.checkout-box {
+    margin-left: 10px;
+}
+
+.order-confirmation-box {
+    margin-left: 10px;
 }
 
 

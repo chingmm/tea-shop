@@ -10,6 +10,9 @@ class Index extends React.Component {
           <input type="text" name="password" placeholder="password" />
           <input className = "signup-button" type="submit" value="signup" />
         </form>
+        <div className = "bottom-img-box">
+          <img className = "bottom-img" src="https://lawsofpositivelifestyle.com/wp-content/uploads/2016/09/loose-leaf-premium-teas.jpg"/>
+        </div>
       </Layout>
     );
   }
