@@ -8,7 +8,7 @@ class Login extends React.Component {
         <form action="/auth/login" method="post">
           <input type="text" name="username" placeholder="username"/>
           <input type="text" name="password" placeholder="password"/>
-          <input type="submit" value="login"/>
+          <input className = "login-button" type="submit" value="login"/>
         </form>
       </Layout>
     );
