@@ -16,7 +16,7 @@ Full-stack web application for an online tea store that implements CRUD and INDU
 - Two mongoose schemas to set up separate schemas in MongoDB - teas and carts
 
 # Problems
-- Bootstrap doesn't seem to be working properly for styling. Used CSS Flexbox and vanilla CSS as a wrokaround
+- Bootstrap doesn't seem to be working properly for styling. Used CSS Flexbox and vanilla CSS as a workaround
 
 
 # Potential Improvements Later
